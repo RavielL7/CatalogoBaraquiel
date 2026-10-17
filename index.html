@@ -1,0 +1,415 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0f1a14">
+    <meta name="description"
+        content="Catálogo de tiragens e serviços de Baraquiel: leituras">
+    <title>Baraquiel — Catálogo de tiragens</title>
+    <link rel="icon" href="assets/images/logo-baraquiel.png" type="image/png">
+    <link rel="apple-touch-icon" href="assets/images/logo-baraquiel.png">
+    <link rel="preload" href="assets/fonts/display.otf?v=concept-1" as="font" type="font/otf" crossorigin>
+    <link rel="preload" href="assets/fonts/arial-rounded-mt-bold.ttf?v=textura-1" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="assets/fonts/dejavu-sans.ttf?v=concept-1" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="assets/fonts/dejavu-sans-bold.ttf?v=concept-1" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="assets/images/perguntas.jpg" as="image" type="image/jpeg">
+    <link rel="preload" href="assets/images/negativo.jpg" as="image" type="image/jpeg">
+    <link rel="preload" href="assets/images/afrodite.jpg" as="image" type="image/jpeg">
+    <link rel="preload" href="assets/images/pets.jpg" as="image" type="image/jpeg">
+    <link rel="preload" href="assets/images/escolha.jpg" as="image" type="image/jpeg">
+    <link rel="preload" href="assets/images/paper-texture.png" as="image" type="image/png">
+    <link rel="stylesheet" href="css/style.css?v=paper-texture-1">
+    <script src="js/config.js" defer></script>
+    <script src="js/app.js" defer></script>
+</head>
+
+<body>
+    <a class="link-pular" href="#catalogue">Pular para o catálogo</a>
+
+    <header class="cabecalho-site" id="topo">
+        <div class="cabecalho-interno">
+            <a class="marca" href="#inicio" aria-label="Baraquiel, início">
+                <span class="marca-selo" aria-hidden="true"><img src="assets/images/logo-baraquiel.png" alt=""
+                        width="47" height="47"></span>
+            </a>
+
+            <nav class="navegacao-desktop" aria-label="Navegação principal">
+                <a href="#catalogue">Tiragens</a>
+                <a href="#atendimento">Atendimento</a>
+                <a href="#duvidas">Dúvidas</a>
+                <a href="#" data-form-link hidden>Formulário ↗</a>
+            </nav>
+
+            <div class="acoes-cabecalho">
+                <button class="botao-pilula acionador-busca" type="button" aria-haspopup="dialog"
+                    aria-label="Buscar tiragens" title="Buscar tiragens">
+                    <span class="icone-botao" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false">
+                            <circle cx="10.8" cy="10.8" r="6.5" />
+                            <path d="m16 16 5 5" />
+                        </svg></span><span class="rotulo-botao">Buscar</span>
+                </button>
+                <button class="botao-pilula pilula-principal" type="button" data-panel="contato">
+                    <span class="icone-botao" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false">
+                            <path d="M7 3h10a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3H9l-5 3V6a3 3 0 0 1 3-3Z" />
+                            <path d="M8 9h8M8 13h5" />
+                        </svg></span><span>Contatos</span>
+                </button>
+                <button class="botao-pilula alternador-menu" type="button" aria-expanded="false"
+                    aria-controls="mobile-navigation">
+                    <span class="icone-botao icone-menu" aria-hidden="true"><span></span></span><span class="rotulo-botao">Menu</span>
+                </button>
+            </div>
+        </div>
+
+        <nav class="navegacao-mobile" id="mobile-navigation" aria-label="Menu para celular">
+            <a href="#inicio">Início</a>
+            <a href="#catalogue">Tiragens</a>
+            <a href="#atendimento">Atendimento</a>
+            <a href="#duvidas">Dúvidas</a>
+            <a href="#" data-form-link hidden>Formulário ↗</a>
+            <button type="button" id="termos" data-panel="termos">Termos e condições</button>
+            <button type="button" data-panel="contato">Contato e redes sociais</button>
+            <button type="button" data-panel="privacidade">Política de privacidade</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="area-destaque" id="inicio" aria-labelledby="hero-title">
+            <div class="padrao-destaque" aria-hidden="true"></div>
+            <div class="cartao-destaque">
+                <video class="video-destaque" id="hero-video" muted autoplay loop playsinline preload="auto"
+                    aria-hidden="true"></video>
+                <div class="sombra-destaque" aria-hidden="true"></div>
+
+                <div class="conteudo-destaque">
+                    <div class="linha-superior-destaque">
+                        <span>Feitiçaria e cartomancia</span>
+                    </div>
+
+                    <div class="texto-destaque">
+                        <h2 id="hero-title" aria-label="Baraquiel">
+                            <span style="--n:0" class="letra-destaque" aria-hidden="true">B</span><span style="--n:1" class="letra-destaque"
+                                aria-hidden="true">A</span><span style="--n:2" class="letra-destaque" aria-hidden="true">R</span><span style="--n:3" class="letra-destaque" aria-hidden="true">A</span><span style="--n:4" class="letra-destaque"
+                                aria-hidden="true">Q</span><span style="--n:5" class="letra-destaque" aria-hidden="true">U</span><span style="--n:6" class="letra-destaque" aria-hidden="true">I</span><span style="--n:7" class="letra-destaque"
+                                aria-hidden="true">E</span><span style="--n:8" class="letra-destaque" aria-hidden="true">L</span>
+                        </h2>
+                        <div class="acoes-destaque">
+                            <a class="botao-acao botao-principal" href="#catalogue">Ver tiragens <span
+                                    aria-hidden="true">↓</span></a>
+                            <button class="botao-acao botao-discreto" type="button" data-panel="contato">Falar comigo
+                                <span aria-hidden="true">↗</span></button>
+                        </div>
+                    </div>
+
+                    <div class="estatisticas-destaque" aria-label="Informações do atendimento">
+                        <div><strong>+2 mil</strong><span>atendimentos</span></div>
+                        <div><strong>2</strong><span>anos atendendo</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="faixa-padrao" aria-hidden="true">
+            <div>✦</div>
+            <div>♣</div>
+            <div>♦</div>
+            <div>♠</div>
+            <div>✦</div>
+            <div>♣</div>
+            <div>♦</div>
+            <div>♠</div>
+            <div>✦</div>
+            <div>♣</div>
+            <div>♦</div>
+            <div>♠</div>
+        </div>
+
+        <section class="catalogo secao" id="catalogue" aria-labelledby="catalog-title">
+            <div class="cabecalho-secao revelar">
+                <div>
+                    <p class="sobretitulo">Catálogo</p>
+                    <h2 id="catalog-title">Escolha sua tiragem</h2>
+                </div>
+            </div>
+            <div class="grade-produtos" id="product-grid"></div>
+            <noscript>
+                <div class="sem-javascript">
+                    <p>Ative o JavaScript para abrir os detalhes interativos ou consulte as artes:</p>
+                    <a href="assets/images/perguntas.jpg">Perguntas e conselhos</a>
+                    <a href="assets/images/negativo.jpg">Pacote do negativo</a>
+                    <a href="assets/images/afrodite.jpg">Templo da Afrodite</a>
+                    <a href="assets/images/pets.jpg">Pacote para pets</a>
+                    <a href="assets/images/escolha.jpg">Escolha seu homem</a>
+                </div>
+            </noscript>
+        </section>
+
+        <div class="faixa-padrao faixa-padrao-suave" aria-hidden="true">
+            <div>✦</div>
+            <div>♣</div>
+            <div>♦</div>
+            <div>♠</div>
+            <div>✦</div>
+            <div>♣</div>
+            <div>♦</div>
+            <div>♠</div>
+            <div>✦</div>
+            <div>♣</div>
+            <div>♦</div>
+            <div>♠</div>
+        </div>
+
+        <section class="area-atendimento secao" id="atendimento" aria-labelledby="builder-title">
+            <div class="cartao-montagem revelar">
+                <div class="montagem-esquerda">
+                    <h2 id="builder-title">como funciona?</h2>
+                    <div class="painel-preco">
+                        <div class="linha-preco">
+                            <div><strong id="question-count">1</strong><span>pergunta</span></div>
+                            <div><strong id="question-price">R$ 25,00</strong><span>valor da leitura</span></div>
+                        </div>
+                        <div class="botoes-escolha" aria-label="Escolha a quantidade de perguntas">
+                            <button type="button" data-questions="1" aria-pressed="true">1</button>
+                            <button type="button" data-questions="2" aria-pressed="false">2</button>
+                            <button type="button" data-questions="3" aria-pressed="false">3</button>
+                            <button type="button" data-questions="4" aria-pressed="false">4</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="info-montagem">
+                    <p>Você escolhe a tiragem, entra em contato ou preenche o <a
+                            href="https://charmed-limit-c85.notion.site/3ab1224617f380f39ca7f3dd1daf35e5"
+                            target="_blank" rel="noopener noreferrer" class="link-oficina">
+                            formulário</a> para entrar direto na fila de
+                        atendimento. O atendimento segue a
+                        ordem de confirmação.</p>
+                    <ul>
+                        <li><span>✦</span> Nos contatos do formulário adicione DDD e VERIFIQUE se o número está correto,
+                            no momento da tiragem entrarei em contato por esse número.</li>
+                        <li><span>✦</span> Nenhuma leitura substitui orientação médica, jurídica ou financeira. Acesse os termos no Menu superior
+                        </li>
+                        <li><span>✦</span> o pagamento é feito no dia do atendimento, não se preocupe, não há pagamento
+                            antes disso e nem no formulário</li>
+                    </ul>
+                    <a class="botao-acao botao-principal" id="builder-contact" href="#" target="_blank"
+                        rel="noopener noreferrer">Solicitar 1 pergunta <span aria-hidden="true">↗</span></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="destaques secao" aria-labelledby="highlights-title">
+            <div class="cabecalho-secao revelar">
+                <div>
+                    <p class="sobretitulo">Talvez seja importante</p>
+                    <h2 id="highlights-title">Antes da consulta</h2>
+                </div>
+            </div>
+            <div class="grade-destaques">
+                <article class="cartao-destaque-info revelar"><span class="icone-destaque">01</span>
+                    <div>
+                        <h3>Escolha com
+                            calma</h3>
+                        <p>Leia a descrição e veja qual método responde melhor ao que você precisa agora.</p>
+                    </div>
+                </article>
+                <article class="cartao-destaque-info revelar"><span class="icone-destaque">02</span>
+                    <div>
+                        <h3>Formulário ou contato</h3>
+                        <p>Após a escolha, entre em contato pelo WhatsApp ou preencha direto o
+                            <a href="https://charmed-limit-c85.notion.site/3ab1224617f380f39ca7f3dd1daf35e5"
+                                target="_blank" rel="noopener noreferrer" class="link-oficina">
+                                formulário</a> para entrar na
+                            fila de espera e aguardar.
+                        </p>
+                    </div>
+                </article>
+                <article class="cartao-destaque-info revelar"><span class="icone-destaque">03</span>
+                    <div>
+                        <h3>Prazo de até 7
+                            dias úteis</h3>
+                        <p>O prazo começa após o preenchimento do formulário, caso passe desse prazo, é possível
+                            desistencia ou direito a 1 pergunta ou conselho extra.</p>
+                    </div>
+                </article>
+                <article class="cartao-destaque-info revelar"><span class="icone-destaque">04</span>
+                    <div>
+                        <h3>Casos de feitiços</h3>
+                        <p>
+                            Para a solicitação de feitiços, acesse a
+                            <a href="https://caoly.carrd.co/" target="_blank" rel="noopener noreferrer"
+                                class="link-oficina">
+                                Oficina do Diabo</a>
+                            e escolha seu feitiço (os preços do site estão desatualizados e não devem ser levados 100%
+                            em consideração, para isso, consulte o magista e não realize pagamentos adiantados) e por
+                            fim fale diretamente com Baraquiel ou realize o formulario com a opção de "pré-feitiço".
+                        </p>
+                    </div>
+                </article>
+                <article class="cartao-destaque-info revelar"><span class="icone-destaque">05</span>
+                    <div>
+                        <h3>Feedbacks
+                            públicos</h3>
+                        <p>Os relatos de clientes ficam disponíveis no perfil oficial do Instagram.</p>
+                    </div>
+                </article>
+                <article class="cartao-destaque-info revelar"><span class="icone-destaque">06</span>
+                    <div>
+                        <h3>Limites
+                            responsáveis</h3>
+                        <p>Leia os
+                            <button type="button" class="termos" data-panel="termos">
+                                Termos e condições
+                            </button>.
+                            Não são feitos diagnósticos, garantias jurídicas ou financeiras e confirmação de gravidez
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <div class="faixa-padrao" aria-hidden="true">
+            <div>♠</div>
+            <div>✶</div>
+            <div>☾</div>
+            <div>✦</div>
+            <div>♠</div>
+            <div>✶</div>
+            <div>☾</div>
+            <div>✦</div>
+            <div>♠</div>
+            <div>✶</div>
+            <div>☾</div>
+            <div>✦</div>
+        </div>
+
+        <section class="duvidas-frequentes secao" id="duvidas" aria-labelledby="faq-title">
+            <div class="contato-duvidas revelar">
+                <h2 id="faq-title">Dúvidas que mais aparecem</h2>
+            </div>
+            <div class="lista-duvidas revelar">
+                <details class="revelar" open>
+                    <summary>Como escolho a melhor tiragem?<span aria-hidden="true">＋</span></summary>
+                    <p>Veja
+                        o objetivo de cada método no catálogo e os valores. Se ainda estiver em dúvida, envie um resumo da situação
+                        pelo WhatsApp.</p>
+                </details>
+                <details class="revelar">
+                    <summary>Quanto tempo demora?<span aria-hidden="true">＋</span></summary>
+                    <p>O prazo máximo é de
+                        7 dias úteis após a confirmação do pagamento, caso passe desse prazo, comunique o magista para receber reembolso ou dar continuidade com direito a uma pergunta ou conselho extra</p>
+                </details>
+                <details class="revelar">
+                    <summary>Posso fazer perguntas sobre qualquer assunto?<span aria-hidden="true">＋</span></summary>
+                    <p>
+                        Existem limites: não são confirmadas gravidez ou doenças, não são feitos diagnósticos e algumas
+                        questões podem ser recusadas conforme os termos.</p>
+                </details>
+                <details class="revelar">
+                    <summary>Como recebo o atendimento?<span aria-hidden="true">＋</span></summary>
+                    <p>Se realizou o formulário, basta aguardar até que Baraquiel retorne e solicite o pagamento para realizar sua tiragem, se foi pago antes do formulário e conversado com Baraquiel, já sabe como funciona, saiba que pode haver uma demora de retorno por conta da demanda, mas se passar dos 7 dias, fale com Baraquiel diretamente no WhatsApp.</p>
+                </details>
+                <details class="revelar">
+                    <summary>Há reembolso?<span aria-hidden="true">＋</span></summary>
+                    <p>Não há reembolso por
+                        desistência ou insatisfação com a leitura. Se o prazo informado for ultrapassado, ele poderá ser
+                        solicitado.</p>
+                </details>
+                <details class="revelar">
+                    <summary>Como solicito serviços de magia?<span aria-hidden="true">＋</span></summary>
+                    <p>Converse
+                        diretamente com Baraquiel antes de realizar qualquer pagamento. Esses serviços passam por
+                        avaliação prévia.</p>
+                </details>
+            </div>
+            <div class="caixa-contato revelar">
+                <span class="marca-selo" aria-hidden="true"><img src="assets/images/logo-baraquiel.png" alt=""
+                        width="47" height="47"></span>
+                <h3>Fale com Baraquiel</h3>
+                <p>Não encontrou sua resposta? Entre em contato para conversar sobre sua consulta.</p>
+                <button class="botao-acao botao-claro" type="button" data-panel="contato">Abrir contatos
+                    <span aria-hidden="true">↗</span></button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="rodape-interno">
+            <div class="rodape-sobre">
+                <a class="marca rodape-marca" href="#inicio">
+                    <span class="marca-selo" aria-hidden="true"><img src="assets/images/logo-baraquiel.png" alt=""
+                            width="47" height="47"></span>
+                    <span class="marca-texto"><strong>Baraquiel</strong><small>Cartomancia &amp; magia</small></span>
+                </a>
+            </div>
+            <div class="rodape-links">
+                <h3>Atendimento</h3>
+                <a href="#catalogue">Tiragens</a>
+                <button type="button" data-panel="termos">Termos e condições</button>
+                <button type="button" data-panel="privacidade">Política de privacidade</button>
+                <button type="button" data-panel="contato">Contato e redes</button>
+            </div>
+            <div class="rodape-links">
+                <h3>Outros serviços</h3>
+                <a href="https://caoly.carrd.co/" target="_blank" rel="noopener noreferrer">Feitiços destrutivos ↗</a>
+                <button type="button" data-panel="magia">Feitiços convencionais</button>
+                <a href="#" data-form-link hidden>Formulário de tiragem ↗</a>
+            </div>
+            <div class="rodape-redes">
+                <h3>Nas redes</h3>
+                <p>Feedbacks, conteúdos e avisos de agenda nos perfis oficiais.</p>
+                <a class="pilula-pequena" href="https://www.instagram.com/baraquiel.xx/" target="_blank"
+                    rel="noopener noreferrer">Instagram ↗</a>
+            </div>
+        </div>
+        <div class="rodape-final">
+            <span>© <span id="year">2026</span> Baraquiel</span>
+            <span>CNPJ: 64.243.109/0001-32</span>
+            <span>As cartas oferecem aconselhamento e não substituem profissionais especializados.</span>
+            <a href="#inicio">Voltar ao topo ↑</a>
+        </div>
+    </footer>
+
+    <dialog class="janela-produto" id="product-dialog" aria-labelledby="product-title">
+        <div class="cabecalho-janela">
+            <div>
+                <h2 id="product-title"></h2>
+            </div>
+            <button class="botao-fechar" type="button" data-close aria-label="Fechar detalhes">×</button>
+        </div>
+        <div class="corpo-janela-produto">
+            <img id="product-image" src="assets/images/perguntas.jpg" alt="" width="517" height="690">
+            <div class="texto-janela-produto">
+                <strong class="preco-janela" id="product-price"></strong>
+                <ul class="detalhes-produto" id="product-description"></ul>
+                <a class="botao-acao botao-principal" id="product-contact" href="#" target="_blank"
+                    rel="noopener noreferrer" data-form-link>Solicitar essa tiragem <span aria-hidden="true">↗</span></a>
+            </div>
+        </div>
+    </dialog>
+
+    <dialog class="janela-informacao" id="info-dialog" aria-labelledby="info-title">
+        <div class="cabecalho-janela">
+            <h2 id="info-title"></h2>
+            <button class="botao-fechar" type="button" data-close aria-label="Fechar janela">×</button>
+        </div>
+        <div class="conteudo-informacao" id="info-content"></div>
+    </dialog>
+
+    <dialog class="janela-busca" id="search-dialog" aria-labelledby="search-title">
+        <div class="cabecalho-janela">
+            <h2 id="search-title">Buscar no catálogo</h2>
+            <button class="botao-fechar" type="button" data-close aria-label="Fechar busca">×</button>
+        </div>
+        <div class="conteudo-busca">
+            <label for="catalog-search">Digite o nome ou preço</label>
+            <input id="catalog-search" type="search" placeholder="Ex.: pets ou R$ 35,00"
+                autocomplete="off">
+            <div class="resultados-busca" id="search-results" aria-live="polite"></div>
+        </div>
+    </dialog>
+</body>
+
+</html>
