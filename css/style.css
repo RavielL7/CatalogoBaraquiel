@@ -83,8 +83,8 @@ body::before {
   pointer-events: none;
   background-image: url("../assets/images/paper-texture.png");
   background-position: top center;
-  background-repeat: repeat-y;
-  background-size: 100% auto;
+  background-repeat: repeat-y-x;
+  background-size: 70% auto;
   opacity: .34;
   mix-blend-mode: color-burn
 }
